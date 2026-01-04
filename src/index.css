@@ -6,55 +6,55 @@
 
 @layer base {
   :root {
-    --background: 222 47% 6%;
-    --foreground: 210 40% 98%;
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
 
-    --card: 222 47% 8%;
-    --card-foreground: 210 40% 98%;
+    --card: 0 0% 98%;
+    --card-foreground: 222 47% 11%;
 
-    --popover: 222 47% 8%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
 
-    --primary: 193 100% 50%;
-    --primary-foreground: 222 47% 6%;
+    --primary: 193 100% 40%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 222 47% 12%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
 
-    --muted: 222 47% 15%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 193 100% 50%;
-    --accent-foreground: 222 47% 6%;
+    --accent: 193 100% 40%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 222 30% 18%;
-    --input: 222 30% 18%;
-    --ring: 193 100% 50%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 193 100% 40%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 222 47% 6%;
-    --sidebar-foreground: 210 40% 98%;
-    --sidebar-primary: 193 100% 50%;
-    --sidebar-primary-foreground: 222 47% 6%;
-    --sidebar-accent: 222 47% 12%;
-    --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 222 30% 18%;
-    --sidebar-ring: 193 100% 50%;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 193 100% 40%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 40% 96%;
+    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-border: 214 32% 91%;
+    --sidebar-ring: 193 100% 40%;
 
     /* Custom variables */
-    --hero-overlay: rgba(0, 0, 0, 0.65);
-    --section-dark: 222 47% 8%;
-    --section-light: 222 47% 6%;
-    --cyan-glow: 0 0 20px hsl(193 100% 50% / 0.3);
-    --timeline-line: 222 30% 20%;
+    --hero-overlay: rgba(0, 0, 0, 0.5);
+    --section-dark: 210 40% 96%;
+    --section-light: 0 0% 100%;
+    --cyan-glow: 0 0 20px hsl(193 100% 40% / 0.3);
+    --timeline-line: 214 32% 85%;
   }
 
   .dark {
-    --background: 222 47% 6%;
+    --background: 222 47% 11%;
     --foreground: 210 40% 98%;
   }
 }
