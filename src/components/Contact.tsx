@@ -55,7 +55,7 @@ const Contact = () => {
 
         {/* Contact Info */}
         <div className="flex items-center justify-center">
-          <div className="flex justify-between items-center gap-8 mb-12 w-7/12">
+          <div className="flex justify-between items-center gap-8 mb-12 w-full md:w-7/12">
             <div
               className="contact-info-item animate-fade-up hover:bg-gray-50 hover:shadow-lg flex flex-col items-center justify-center bg-[#F4F6F7] w-full h-32 rounded-md"
               style={{ animationDelay: "0.2s" }}
@@ -75,7 +75,7 @@ const Contact = () => {
         {/* Contact Form */}
         <div className="flex items-center justify-center mx-auto">
           <div
-            className="bg-card p-8 rounded-lg border border-border animate-fade-up w-7/12"
+            className="bg-card p-8 rounded-lg border border-border animate-fade-up w-full md:w-7/12"
             style={{ animationDelay: "0.4s" }}
           >
             <div className="flex items-center gap-3 mb-6">

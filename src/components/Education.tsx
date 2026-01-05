@@ -31,7 +31,7 @@ const Education = () => {
 
           {/* Education Cards */}
           <div className="flex items-center justify-center">
-            <div className="grid grid-cols-1 gap-6 w-8/12">
+            <div className="grid grid-cols-1 gap-6 w-full md:w-8/12">
               {educationData.map((item, index) => (
                 <div
                   key={item.degree}

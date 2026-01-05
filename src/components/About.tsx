@@ -30,7 +30,7 @@ const About = () => {
             {personalInfo.map((item, index) => (
               <div
                 key={item.label}
-                className="animate-fade-up flex items-center justify-between bg-gray-100 p-3 rounded-md w-1/2"
+                className="animate-fade-up flex items-center justify-between bg-gray-100 p-3 rounded-md w-full md:w-1/2"
                 style={{ animationDelay: `${0.2 + index * 0.1}s` }}
               >
                 <span className="font-semibold">{item.label} </span>
