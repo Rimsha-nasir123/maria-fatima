@@ -60,9 +60,9 @@ const Navbar = () => {
             className="absolute left-4 flex items-center gap-2 text-primary"
           >
             {isScrolled ? (
-              <img src="https://puremath-dotcom.github.io/IqraIrfan/assets/images/logo-2.svg" />
+              <img src="/logo.jpeg" className="h-20 w-20"/>
             ) : (
-              <img src="https://puremath-dotcom.github.io/IqraIrfan/assets/images/logo.svg" />
+              <img src="/logo.jpeg" className="h-20 w-20" />
             )}
           </a>
 

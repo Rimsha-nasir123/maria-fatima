@@ -55,20 +55,20 @@ const Contact = () => {
 
         {/* Contact Info */}
         <div className="flex items-center justify-center">
-          <div className="flex justify-between items-center gap-8 mb-12 w-full md:w-7/12">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-12 w-full md:w-7/12">
             <div
               className="contact-info-item animate-fade-up hover:bg-gray-50 hover:shadow-lg flex flex-col items-center justify-center bg-[#F4F6F7] w-full h-32 rounded-md"
               style={{ animationDelay: "0.2s" }}
             >
-              <MapPin className="w-7 h-7 text-[#0066FF]" />
-              <span>Khanewal, Pakistan</span>
+              <MapPin className="w-7 h-7 text-primary" />
+              <span>Multan, Pakistan</span>
             </div>
             <div
               className="contact-info-item animate-fade-up hover:bg-gray-50 hover:shadow-lg flex flex-col items-center justify-center bg-[#F4F6F7] w-full h-32 rounded-md"
               style={{ animationDelay: "0.3s" }}
             >
               <Mail className="w-7 h-7 text-primary" />
-              <span>khanzadi8566@gmail.com</span>
+              <span>mariakhanii208@gmail.com</span>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ const Contact = () => {
             style={{ animationDelay: "0.4s" }}
           >
             <div className="flex items-center gap-3 mb-6">
-              <Mail className="w-5 h-5 text-primary" />
+              <Mail className="w-5 h-5 text-[#6600bd]" />
 
               <h4 className="text-lg font-semibold text-foreground">
                 Send a Message
@@ -136,7 +136,7 @@ const Contact = () => {
               <div className="text-center">
                 <button
                   type="submit"
-                  className="bg-[#0066FF] animate-fade-up text-white rounded-full font-semibold py-3 px-8"
+                  className="bg-[#6600bd] animate-fade-up text-white rounded-sm font-semibold py-3 px-8"
                 >
                   Send Message
                 </button>

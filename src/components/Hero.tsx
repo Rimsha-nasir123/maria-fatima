@@ -1,4 +1,4 @@
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/bg.jpeg";
 
 const Hero = () => {
   return (
@@ -13,13 +13,13 @@ const Hero = () => {
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/10" />
+      <div className="absolute inset-0 bg-black/50" />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="animate-fade-up">
           <h1 className="text-5xl md:text-7xl text-white font-bold text-foreground mb-4 tracking-tight">
-            IQRA IRFAN
+            MARIA FATIMA{" "}
           </h1>
           <h3 className="text-2xl md:text-3xl font-semibold text-[#00c6ff] mb-6">
             Business Analyst

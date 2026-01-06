@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center text-center">
             {/* Logo */}
-            <img src="https://puremath-dotcom.github.io/IqraIrfan/assets/images/logo.svg" />
+            <img src="/logo.jpeg" className="h-20 w-20" />
 
             {/* Social Icons */}
             <div className="flex items-center gap-4 mb-6 mt-14">
@@ -50,7 +50,7 @@ const Footer = () => {
               href="mailto:khanzadi8566@gmail.com"
               className="text-white hover:text-primary text-md font-bold transition-colors mb-6"
             >
-              khanzadi8566@gmail.com
+              mariakhanii208@gmail.com
             </a>
 
             {/* Copyright */}
@@ -62,7 +62,7 @@ const Footer = () => {
       {/* Back to Top Button */}
       <button
         onClick={scrollToTop}
-        className="fixed bottom-6 right-6 w-12 h-12 bg-primary text-primary-foreground rounded-md flex items-center justify-center shadow-lg hover:shadow-[var(--cyan-glow)] transition-all duration-300 hover:scale-110 z-50"
+        className="fixed bottom-6 right-6 w-12 h-12 bg-[#6600bd] text-primary-foreground rounded-md flex items-center justify-center shadow-lg hover:shadow-[var(--cyan-glow)] transition-all duration-300 hover:scale-110 z-50"
         aria-label="Back to top"
       >
         <i className="lni lni-chevron-up text-2xl" />

@@ -1,8 +1,8 @@
 const About = () => {
   const personalInfo = [
-    { label: "Name", value: "Iqra Irfan" },
-    { label: "Location", value: "Khanewal, Pakistan" },
-    { label: "Email", value: "khanzadi8566@gmail.com" },
+    { label: "Name", value: "Maria Fatima" },
+    { label: "Location", value: "Multan, Pakistan" },
+    { label: "Email", value: "mariakhanii208@gmail.com" },
     { label: "Languages", value: "English, Urdu, Saraiki" },
   ];
 
@@ -46,7 +46,7 @@ const About = () => {
             href="https://puremath-dotcom.github.io/IqraIrfan/assets/cv/iqra%20irfan%20cv.jpeg"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#0066FF] animate-fade-up text-white rounded-full font-semibold py-4 px-10"
+            className="bg-[#6600bd] animate-fade-up text-white rounded-sm font-semibold py-4 px-10"
             style={{ animationDelay: "0.6s" }}
           >
             View CV
